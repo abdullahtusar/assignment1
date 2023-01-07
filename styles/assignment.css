@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style css */
+header {
+    text-align: right;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1008px;
+
+}
+
+.header {
+    padding-top: 316px;
+    padding-right: 500px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+header P {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 24px 0px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #005FAC;
+    padding: 20px;
+    border: 0;
+}
+
+.btn-secondery {
+    display: block;
+    font-weight: 500 font-size: 20px;
+    border-radius: 5px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    padding: 20px;
+    border: 0;
+}
+/* my failure section styles */
+.my-failure{
+    display: flex;
+    gap: 100px;
+    padding: 130px 480px;
+}
+.failure-description{
+    padding-top: 240px;
+}
+.failure-description h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure-description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.failure-description li{
+    list-style: none;
+}
+.failure-description ul{
+    padding: 0px;
+}
+.failure-description ul i{
+    color: rgb(124, 219, 124);
+    width: 24px;
+    height: 24px;
+}
+/* my plan section styles */
+.my-plan{
+    padding-bottom: 130px;
+}
+.my-plan h2{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    padding-bottom: 50px;
+}
+.my-plan-record{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding: 0px 580px;
+}
+.my-plan-record h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+.my-plan-record p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+/* keep positive section styles */
+.keep-positive{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 65%),url(../images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    width: 1600px;
+    height: 301px;
+}
+.keep-positive-description{
+    padding: 60px 0px 0px 64px;
+}
+.keep-positive h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+/* implement plan section styles */
+.implement-plan{
+    display: flex;
+    gap: 100px;
+    padding: 130px 580px;
+}
+.implement-image img{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+
+}
+.implement-plan-description{
+    padding-top: 70px;
+}
+.implement-plan-description h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.implement-plan-description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+/* footer styles */
+footer {
+    color: #FFFFFF;
+    background-color: #151414;
+    display: flex;
+    gap: 500px;
+    padding: 130px 480px;
+}
+.future h2{
+    padding-bottom: 16px;
+}
+.future p{
+    padding-bottom: 24px;
+}
+.social-media a{
+    padding-right: 12px;
+}
+footer input {
+    font-weight: 400;
+    font-size: 18px;
+    width: 325px;
+    height: 54px;
+    border: 1px solid white;
+    background-color: #151414;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.subscribe h3{
+    font-weight: 500;
+}
