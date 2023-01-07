@@ -137,7 +137,7 @@ header P {
 /* implement plan section styles */
 .implement-plan{
     display: flex;
-    gap: 100px;
+    gap: 80px;
     padding: 130px 580px;
 }
 .implement-image img{
